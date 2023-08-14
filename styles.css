@@ -5,10 +5,7 @@ form{
 input{
 	width:100%;
 }
-#gender_f,
-#gender_m{
-	width:10px;
-}
+
 button{
 	text-align:center;
 	margin-left: 50%;
