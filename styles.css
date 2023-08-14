@@ -1,2 +1,15 @@
-
+form{
+	border:2px solid black;
+	padding:20px;
+}
+input{
+	width:100%;
+}
+.mf{
+	width:10px;
+}
+button{
+	text-align:center;
+	margin-left: 50%;
+}
 /* Your CSS Code here. */
