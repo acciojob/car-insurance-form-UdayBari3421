@@ -7,10 +7,57 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+<!-- 
+<style>
+	form{
+	border:2px solid black;
+	padding:20px;
+}
+input{
+	width:100%;
+}
+#gender_f,
+#gender_m{
+	width:10px;
+}
+button{
+	text-align:center;
+	margin-left: 50%;
+}
+</style> -->
+	
+	<form method="post">
+		<label for="name">Name</label><br>
+		<input type="text" name="name" id="name" placeholder="Name" required><br><br>
+		
+		<label for="email">Email</label><br>
+		<input type="email" name="email" id="email" placeholder="Email" required><br><br>
 
+		<label for="gender">Gender</label>
+		<input type="radio" name="gender" id="gender_m" required>
+		<input type="radio" name="gender" id="gender_f" required><br><br>
+
+		<label for="cars">Car Brands</label><br>
+		<select name="cars" id="cars" required>
+		  <option value="" selected hidden>--Please choose an option--</option>
+		  <option value="BMW">BMW</option>
+		  <option value="Audi">Audi</option>
+		  <option value="Mercedez">Mercedez</option>
+		</select><br><br>
+		
+		<label for="age">Car Age</label><br>
+		<input type="number" name="carage" id="carage" required><br><br>
+
+		<label for="dop">Date of Purchase (dop)</label><br>
+		<input type="date" name="dob" id="dop" required><br><br>
+		
+		<label for="password">Password</label><br>
+		<input type="password" name="password" id="password" placeholder="Password" required><br><br>
+
+
+		<button type="submit">Submit</button>
+	</form>
+	
 </body>
 
 </html>
